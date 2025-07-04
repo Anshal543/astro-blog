@@ -8,5 +8,5 @@ export async function GET(context) {
         items: await pagesGlobToRssItems(import.meta.glob("./posts/*.md")),
         customData: `<language>en-us</language>`,
     })
-}
+}   
 
